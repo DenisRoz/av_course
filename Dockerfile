@@ -36,7 +36,7 @@ WORKDIR /home/student
 RUN echo "source /opt/ros/humble/setup.bash" >> ~/.bashrc
 RUN echo 'export ROS_DOMAIN_ID=30 #TURTLEBOT3' >> ~/.bashrc
 RUN echo 'export TURTLEBOT3_MODEL=burger' >> ~/.bashrc
-RUN echo 'source ~/ros2_ws/install/setup.bash' >> ~/.bashrc
+RUN echo 'source ~/ws/install/setup.bash' >> ~/.bashrc
 RUN echo 'source /usr/share/gazebo/setup.sh' >> ~/.bashrc
 RUN echo "export ROS_LOCALHOST_ONLY=1" >> ~/.bashrc
 

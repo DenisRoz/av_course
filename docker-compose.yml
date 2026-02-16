@@ -13,9 +13,10 @@ services:
     volumes:
       # Map the student's workspace folder to the home directory in the container
       - ./src:/home/student/ws/src
+      - ./build_ws.sh:/home/student/ws/build_ws.sh
       - ./build:/home/student/ws/build
-      - ./devel:/home/student/ws/devel
-      - ./logs:/home/student/ws/logs
+      - ./install:/home/student/ws/install
+      - ./log:/home/student/ws/log
       # Optional: Share bash history so commands persist across restarts
       - ./.bash_history:/home/student/.bash_history
       # X11 Socket for GUI (Gazebo/Rviz)
