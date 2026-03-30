@@ -58,3 +58,38 @@ ros2 run nav2_map_server map_saver_cli -f ~/map
 ros2 run nav2_map_server map_saver_cli -f ~/ros2_ws_/src/my_robot_controller/map
 quit
 exit
+ls
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+ls
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+ls
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller turtlebot3_world.launch.py 
+. build_ws.sh 
+ros2 launch my_robot_controller start_mapping.launch.py 
