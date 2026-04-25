@@ -32,6 +32,8 @@ setup(
             "draw_circle = my_robot_controller.draw_circle:main",
             "close_loop = my_robot_controller.close_loop_control:main",
             "mapping = my_robot_controller.mapping:main",
+            "navigation = my_robot_controller.navigation:main",
+            'av_nav = my_robot_controller.av_navigation:main', 
         ],
     },
 )
