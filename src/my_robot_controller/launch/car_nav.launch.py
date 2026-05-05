@@ -14,8 +14,7 @@ def generate_launch_description():
 
     navigation_node = IncludeLaunchDescription( 
         XMLLaunchDescriptionSource( 
-        os.path.join(pkg_palning_sim, 'launch', 
-'planning_simulator.launch.xml')
+        os.path.join(pkg_palning_sim, 'launch', 'planning_simulator.launch.xml')
         ), 
         launch_arguments={'map_path': map_dir,
                           'vehicle_model': 'sample_vehicle',

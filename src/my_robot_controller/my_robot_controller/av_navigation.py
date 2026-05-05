@@ -32,18 +32,18 @@ class CarNavigationNode(Node):
     def setup_initial_pose(self): 
         initial_pose = PoseWithCovarianceStamped() 
         initial_pose.header.frame_id = 'map' 
-        initial_pose.pose.pose.position.x = 3888.959 
-        initial_pose.pose.pose.position.y = 73811.71 
-        initial_pose.pose.pose.orientation.z = 0.85 
-        initial_pose.pose.pose.orientation.w = 0.50 
+        initial_pose.pose.pose.position.x = 3839.165
+        initial_pose.pose.pose.position.y = 73759.585
+        initial_pose.pose.pose.orientation.z = -0.519
+        initial_pose.pose.pose.orientation.w = 0.854
         time.sleep(10)
         self.initial_pose_publisher.publish(initial_pose) 
         
     def setup_goals(self): 
         self.goal_poses = [ 
-        {'x': 3889.76, 'y': 73757.77, 'xx': 0.0, 'yy': 0.0, 'zz': -0.96, 'w': 0.24}, 
-        {'x': 3809.31, 'y': 73765.72, 'xx': 0.0, 'yy': 0.0, 'zz': -0.96, 'w': 0.26},
-        {'x': 3696.58, 'y': 73732.67, 'xx': 0.0, 'yy': 0.0, 'zz': -0.49, 'w': 0.86} 
+        {'x': 3882.97, 'y': 73822.35, 'xx': 0.0, 'yy': 0.0, 'zz': 0.85, 'w': 0.53}, 
+        {'x': 3695.121, 'y': 73735.492, 'xx': 0.0, 'yy': 0.0, 'zz': -0.520, 'w': 0.853},
+        {'x': 3681.519, 'y': 73648.906, 'xx': 0.0, 'yy': 0.0, 'zz': -0.967, 'w': 0.252} 
         ]
         time.sleep(5) 
         self.publish_goal() 
